@@ -7,7 +7,7 @@ class YandexSearchLocators:
     LOCATOR_YANDEX_SEARCH_FIELD = (By.ID, "text")  # Локатор поля поиска
     LOCATOR_YANDEX_SEARCH_BUTTON = (By.CLASS_NAME, "search2__button")  # Локатор кнопки поиска
     LOCATOR_YANDEX_SUGGEST = (By.XPATH, "/html/body/div[2]")  # Локатор таблицы подсказок
-    LOCATOR_YANDEX_SEARCH_RESULTS = (By.ID, "search-result")  # Локатор таблицы подсказок
+    LOCATOR_YANDEX_SEARCH_RESULTS = (By.ID, "search-result")  # Локатор списка результатов поиска
 
 
 class SearchHelper(BasePage):
